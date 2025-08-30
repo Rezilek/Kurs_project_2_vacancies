@@ -33,19 +33,19 @@ vacancy_search/
 
 ### 1.2. Настройка окружения
 
-1. Создаем виртуальное окружение:
+1.2.1. Создаем виртуальное окружение:
 
 python -m venv venv
 source venv/bin/activate  # для Linux/Mac
 venv\Scripts\activate     # для Windows
 
-2. Создаем файл `requirements.txt`:
+1.2.2. Создаем файл `requirements.txt`:
 
 requests==2.31.0
 pytest==7.4.0
 python-dotenv==1.0.0
 
-3. Устанавливаем зависимости:
+1.2.3. Устанавливаем зависимости:
 
 pip install -r requirements.txt
 
@@ -90,15 +90,15 @@ __pycache__/
 
 ## 4. Запуск проекта
 
-1. Убедитесь, что все зависимости установлены:
+4.1. Убедитесь, что все зависимости установлены:
  
 pip install -r requirements.txt
 
-2. Запустите основной скрипт:
+4.2. Запустите основной скрипт:
 
 python main.py
 
-3. Для запуска тестов:
+4.3. Для запуска тестов:
 
 pytest tests/
 
