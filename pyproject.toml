@@ -23,4 +23,13 @@ flake8 = "^7.3.0"
 black = "^25.1.0"
 isort = "^6.0.1"
 mypy = "^1.17.1"
+pytest-cov = "^6.2.1"
+types-requests = "^2.32.4.20250809"
+
+[tool.pytest.ini_options]
+addopts = "--cov=src/ --cov-report=term-missing"
+testpaths = ["tests"]
+
+[flake8]
+   max-line-length = 90
 
